@@ -1,0 +1,4 @@
+Bowling_arm_filtered['Acc_Y_derivative'] = np.gradient(Bowling_arm_filtered['Acc_Y'], Bowling_arm_filtered['time_seconds'])
+
+Bowling_arm_filtered['Acc_Z_derivative'] = np.gradient(Bowling_arm_filtered['Acc_Z'], Bowling_arm_filtered['time_seconds'])
+Bowling_arm_filtered['Acc_X_derivative'] = np.gradient(Bowling_arm_filtered['Acc_X'], Bowling_arm_filtered['time_seconds'])
